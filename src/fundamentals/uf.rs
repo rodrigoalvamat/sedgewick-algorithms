@@ -1,3 +1,5 @@
+/// A data structure that can remember sufficient information about the pairs
+/// it has seen to be able to decide whether or not a new pair of objects is connected.
 /// Maintains the invariant that p and q are connected if and only if id[p] is equal to id[q].
 /// In other words, all sites in a component must have the same value in id[].
 pub struct QuickFindUF {
